@@ -1,0 +1,63 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Felicidades!!</title>
+		<link rel="stylesheet" type="text/css" href="css/HappyB.css">
+	</head>
+	<body>
+			
+
+			<section>	
+
+				<div class="txt">
+
+				Te deseo un hermoso día hoy en día de tu cumpleaños, espero que Dios esté presente en cada momento de tu vida y que te ayude a lograr todas tus metas.
+				</div>
+
+				<a href="">
+					aaaaaa
+			</a>
+				
+					<div class="box">
+
+						<div class="circle">
+
+							<h2>Sthephanie<br>Dayana<br>Moreno</h2>
+						</div>
+					</div>
+			</section>
+			
+			<script type="text/javascript">
+
+				/*alert("Lo siento por llegar tarde....😅😅\nFeliz Cumpleaños Sthephanny Dayana Moreno😍☺️😊")*/
+
+				function bubbles(){
+					var count = 200;
+					var section = document.querySelector('section');
+					var i=0;
+					while (i < count){
+						var bubble = document.createElement('i');
+						var x = Math.floor(Math.random() * window.innerWidth);
+						var y = Math.floor(Math.random() * window.innerHeight);
+
+						var size = Math.random() * 10;
+						bubble.style.left = x+'px';
+						bubble.style.top = y+'px';
+						bubble.style.width = 1+size+'px';
+						bubble.style.height = 1+size+'px';
+
+
+						bubble.style.animationDuration = 5+size+'s';
+						bubble.style.animationDelay = size+'s';
+
+						section.appendChild(bubble);
+						i++
+					}
+				}
+
+				bubbles()
+
+
+			</script>
+	</body>
+	</html>
