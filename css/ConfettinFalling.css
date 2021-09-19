@@ -56,7 +56,7 @@ section.box a
 	padding: 40px;
 	visibility: hidden;
 	text-align: justify;
-
+	font-size: 1.5em;
 }
 
 .popup.active
